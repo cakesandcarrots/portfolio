@@ -1,57 +1,54 @@
-
-.space-grotesk-.navitems{
-  
-}
-
-
-
-.nav{
+#nav {
     display: flex;
-    background-color:#1B2430;
+    background-color: #1B2430;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
-    padding-left: 1rem;
     padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top:1rem;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 10;
+
 }
 
-.navitems{
+.navitems {
     display: flex;
     gap: 3rem;
     list-style: none;
 
 }
 
-ul li a{
+ul li a {
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
-  font-weight:bolder;
-  font-style:normal;
+    font-weight: bolder;
+    font-style: normal;
     text-decoration: none;
     font-size: 1.3rem;
-    color: white ;
+    color: white;
     transition: 0.3s ease-in-out;
 
 }
 
 ul li a:hover,
-ul li a.active
-{
+ul li a.active {
     color: orange;
 }
 
-ul li{
+ul li {
     padding: 0 20px;
     position: relative;
 }
 
 ul li a:hover::after,
-ul li a.active::after{
-content: "";
-width: 50%;
-height: 4px;
-background-color: orange;
-position: absolute;
-bottom: -4px;
-left: 20px;
+ul li a.active::after {
+    content: "";
+    width: 50%;
+    height: 4px;
+    background-color: orange;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
 }

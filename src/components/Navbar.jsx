@@ -1,8 +1,8 @@
-import '../styling/Navbar.css'
+import "../styling/Navbar.css";
 function Navbar() {
   return (
     <>
-      <div className="nav">
+      <div id="nav">
         <a href="index.html">
           <svg
             id="logo-38"
