@@ -1,6 +1,6 @@
 #nav {
     display: flex;
-    background-color: #1B2430;
+    background-color: #21262e;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
@@ -13,14 +13,14 @@
 
 }
 
-.navitems {
+.navitemscontainer {
     display: flex;
     gap: 3rem;
     list-style: none;
 
 }
 
-ul li a {
+.anchor{
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: bolder;
@@ -32,18 +32,16 @@ ul li a {
 
 }
 
-ul li a:hover,
-ul li a.active {
+.anchor:hover {
     color: orange;
 }
 
-ul li {
+.navitem {
     padding: 0 20px;
     position: relative;
 }
 
-ul li a:hover::after,
-ul li a.active::after {
+.anchor:hover::after {
     content: "";
     width: 50%;
     height: 4px;

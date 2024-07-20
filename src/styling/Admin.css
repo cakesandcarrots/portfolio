@@ -1,4 +1,4 @@
-.contact{
+.admin{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
     padding-right: 5 rem;
 }
 
-.contactmeform{
+.adminform{
 
     max-width: 600px;
     width: 100%;
@@ -18,7 +18,7 @@
     margin: 25px;
 }
 
-.contactformh2{
+.adminformh2{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -27,7 +27,7 @@
     text-align: center;
 }
 
-.contactforminputs{
+.adminforminputs{
     margin-top: 20px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -36,7 +36,7 @@
 
 }
 
-.contactfields,.contactfieldlong{
+.adminfields{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
@@ -54,11 +54,6 @@
     padding-right: 0px;
 }
 
-.contactfieldlong{
-    height: 200px;
-    resize: none;
-  
-}
 
 .contactbutton{
 

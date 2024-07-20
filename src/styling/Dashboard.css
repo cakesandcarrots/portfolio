@@ -1,0 +1,81 @@
+#dashboard_container {
+    background-color: #1B2430;
+    height: 140vh;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.dashboard_heading {
+    text-align: center;
+}
+
+.dashboard_welcome {
+    text-align: center;
+}
+
+#logout {
+    position: absolute;
+    top: 100px;
+    right: 15px;
+}
+
+.sidebar .contact-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.sidebar .blog-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.sidebar .logout-btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.create-blog-btn {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.contact-card, .blog-card {
+    background-color: #2a2f3a;
+    border: none;
+}
+
+.contact-card-body, .blog-card-body {
+    color: black;
+    background-color: white;
+}
+
+.contact-card-title, .blog-card-title {
+    color:black;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.description-editor {
+    height: 200px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.list-group-item{
+ margin : 5px;   
+}
+
+.someblogbuttons{
+    display: flex;
+    gap: 0.5rem;
+}

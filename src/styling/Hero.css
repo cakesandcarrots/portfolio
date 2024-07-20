@@ -1,10 +1,10 @@
 .banner{
     margin-top:0;
-    padding: 150px 0 250px 0 ;
-    background-color:#1B2430;;
+    padding: 150px 0 310px 0 ;
+    background-color:#1B2430;
 }
 
-.banner .tagline{
+.tagline{
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
@@ -14,7 +14,7 @@
 
 }
 
-.banner h1{
+.nametext{
 
     color: white;
     font-size: 65px;
@@ -26,7 +26,7 @@
     display: block;
 }
 
-.banner p {
+.designation {
     color : #B8B8B8;
     font-size: 2rem;
     letter-spacing: 0.8px;
@@ -35,7 +35,7 @@
     
 }
 
-.banner img{
+.profilepic{
     height: 25rem;
     border-radius: 100%;
     animation: updown 6s linear infinite;
